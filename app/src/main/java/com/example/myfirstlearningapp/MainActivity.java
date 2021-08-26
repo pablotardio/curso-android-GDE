@@ -11,12 +11,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        int mat=8;
-        int rel=10;
-        float promedio =mat+rel/2;
-        if(promedio<6){
-            Toast.makeText(this,"Aprobado",Toast.LENGTH_SHORT).show();
-        }
+
     }
 
 
