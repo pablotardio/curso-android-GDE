@@ -32,8 +32,8 @@
 
     <RadioGroup
         android:id="@+id/radioGroup"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="190dp"
+        android:layout_height="208dp"
         android:layout_marginStart="148dp"
         android:layout_marginTop="32dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -50,6 +50,18 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/string_radioButton_radioCalculator_resta" />
+
+        <RadioButton
+            android:id="@+id/radioButtonCalculatorMul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/string_radioButton_radioCalculator_mul" />
+
+        <RadioButton
+            android:id="@+id/radioButtonCalculatorDiv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/string_radioButton_radioCalculator_div" />
     </RadioGroup>
 
     <Button

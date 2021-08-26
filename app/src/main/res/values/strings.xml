@@ -12,4 +12,6 @@
     <string name="string_radioButton_radioCalculator_suma">Suma</string>
     <string name="string_radioButton_radioCalculator_resta">Resta</string>
     <string name="string_textView_radioCalculator_result">Resultado</string>
+    <string name="string_radioButton_radioCalculator_mul">Multiplicacion</string>
+    <string name="string_radioButton_radioCalculator_div">Division</string>
 </resources>
