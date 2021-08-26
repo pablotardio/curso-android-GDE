@@ -5,4 +5,11 @@
     <string name="string_textField_mat">Matematicas</string>
     <string name="string_button_calculate">Calcular</string>
     <string name="string_textView_result">Nota: ?</string>
+    <!--Calculator of radio buttons Activity (View)-->
+    <string name="string_textField_radioCalculator_1">Num 1</string>
+    <string name="string_textField_radioCalculator_2">Num 2</string>
+    <string name="string_button_radioCalculator_calculate">Calcular</string>
+    <string name="string_radioButton_radioCalculator_suma">Suma</string>
+    <string name="string_radioButton_radioCalculator_resta">Resta</string>
+    <string name="string_textView_radioCalculator_result">Resultado</string>
 </resources>

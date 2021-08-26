@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyFirstLearningApp">
-        <activity android:exported="true" android:name=".screen_calculator"></activity>
+        <activity android:exported="true" android:name=".RadioCalculator"></activity>
+        <activity
+            android:name=".screen_calculator"
+            android:exported="true" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

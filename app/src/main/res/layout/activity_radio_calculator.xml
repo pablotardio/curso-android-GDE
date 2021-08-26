@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RadioCalculator">
+
+    <EditText
+        android:id="@+id/editTextCalculator1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="64dp"
+        android:ems="10"
+        android:hint="@string/string_textField_radioCalculator_1"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextCalculator2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="52dp"
+        android:ems="10"
+        android:hint="@string/string_textField_radioCalculator_2"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextCalculator1" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextCalculator2">
+
+        <RadioButton
+            android:id="@+id/radioButtonCalculator1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/string_radioButton_radioCalculator_suma" />
+
+        <RadioButton
+            android:id="@+id/radioButtonCalculator2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/string_radioButton_radioCalculator_resta" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonRadioCalculator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="52dp"
+        android:text="@string/string_button_radioCalculator_calculate"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+    <TextView
+        android:id="@+id/resultRadioCalculator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="76dp"
+        android:text="@string/string_textView_radioCalculator_result"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonRadioCalculator" />
+</androidx.constraintlayout.widget.ConstraintLayout>
