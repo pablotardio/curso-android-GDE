@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     tools:context=".screen_calculator">
 
     <EditText
@@ -13,6 +14,7 @@
         android:layout_marginStart="100dp"
         android:layout_marginTop="76dp"
         android:ems="10"
+        android:hint="@string/string_textField_fis"
         android:inputType="number"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -24,6 +26,7 @@
         android:layout_marginStart="100dp"
         android:layout_marginTop="48dp"
         android:ems="10"
+        android:hint="@string/string_textField_quim"
         android:inputType="number"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextNumberFis" />
@@ -35,6 +38,7 @@
         android:layout_marginStart="100dp"
         android:layout_marginTop="48dp"
         android:ems="10"
+        android:hint="@string/string_textField_mat"
         android:inputType="number"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextNumberQuim" />
@@ -47,15 +51,17 @@
         android:layout_marginTop="48dp"
         android:text="TextView"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumberMat" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumberMat"
+        tools:text="@string/string_textView_result" />
 
     <Button
         android:id="@+id/buttonCalcularNota"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="156dp"
+        android:layout_marginStart="148dp"
         android:layout_marginTop="56dp"
-        android:text="Button"
+        android:onClick="calculateGrade"
+        android:text="@string/string_button_calculate"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewNota" />
 </androidx.constraintlayout.widget.ConstraintLayout>

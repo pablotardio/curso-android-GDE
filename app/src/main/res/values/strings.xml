@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">MyFirstLearningApp</string>
+    <string name="string_textField_fis">Fisica</string>
+    <string name="string_textField_quim">Quimica</string>
+    <string name="string_textField_mat">Matematicas</string>
+    <string name="string_button_calculate">Calcular</string>
+    <string name="string_textView_result">Nota: ?</string>
 </resources>
