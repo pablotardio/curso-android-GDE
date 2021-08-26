@@ -13,6 +13,8 @@ public class RadioCalculator extends AppCompatActivity {
     EditText et2;
     RadioButton rbSuma;
     RadioButton rbResta;
+    RadioButton rbMul;
+    RadioButton rbDiv;
     TextView tv ;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +27,8 @@ public class RadioCalculator extends AppCompatActivity {
         this.et2 = (EditText) findViewById(R.id.editTextCalculator2);
         this.rbSuma = (RadioButton) findViewById(R.id.radioButtonCalculatorSuma);
         this.rbResta = (RadioButton) findViewById(R.id.radioButtonCalculatorResta);
+        this.rbMul = (RadioButton) findViewById(R.id.radioButtonCalculatorMul);
+        this.rbDiv = (RadioButton) findViewById(R.id.radioButtonCalculatorDiv);
         this.tv = (TextView) findViewById(R.id.textViewRadioCalculator);
     }
     public void calculate(View view){
@@ -34,9 +38,21 @@ public class RadioCalculator extends AppCompatActivity {
         if(this.rbSuma.isChecked()){
             result=numb1+numb2;
 
-        }else{
+        }else if(this.rbResta.isChecked()){
             result=numb1-numb2;
+            tv.setText(result.toString());
+        }else if (this.rbMul.isChecked()){
+            result=numb1*numb2;
+            tv.setText(result.toString());
+        }else if (this.rbDiv.isChecked()){
+            if(numb2!=0){
+                result=numb1/numb2;
+                tv.setText(result.toString());
+            }else{
+                tv.setText("Error: No se puede dividir entre 0");
+            }
+
         }
-        tv.setText(result.toString());
+
     }
 }
