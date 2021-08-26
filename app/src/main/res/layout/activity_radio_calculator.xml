@@ -40,13 +40,13 @@
         app:layout_constraintTop_toBottomOf="@+id/editTextCalculator2">
 
         <RadioButton
-            android:id="@+id/radioButtonCalculator1"
+            android:id="@+id/radioButtonCalculatorSuma"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/string_radioButton_radioCalculator_suma" />
 
         <RadioButton
-            android:id="@+id/radioButtonCalculator2"
+            android:id="@+id/radioButtonCalculatorResta"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/string_radioButton_radioCalculator_resta" />
@@ -58,12 +58,13 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="156dp"
         android:layout_marginTop="52dp"
+        android:onClick="calculate"
         android:text="@string/string_button_radioCalculator_calculate"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
 
     <TextView
-        android:id="@+id/resultRadioCalculator"
+        android:id="@+id/textViewRadioCalculator"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="176dp"
