@@ -28,7 +28,7 @@ public class SpinnerSelectCalculator extends AppCompatActivity {
         this.spinner=(Spinner) findViewById(R.id.spinnerCalc);
         this.tv=(TextView)findViewById(R.id.textViewSpinnerCalc);
         String [] spinnerItems={"sumar","restar","multiplicar","dividir"};
-        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1,spinnerItems);
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, R.layout.spinner_item_custom_pablo,spinnerItems);
         spinner.setAdapter(adapter);
     }
     public void calcular(View view){
