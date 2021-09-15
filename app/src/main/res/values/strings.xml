@@ -39,6 +39,7 @@
     <string name="string_allActivities_webView_TV">Introduzca Pagina web</string>
     <string name="string_allActivities_webView_ButtonSend">Enviar Datos</string>
     <string name="string_allActivities_webView_Button02">Atras</string>
+    <string name="string_allActivities_DB">Uso de Base de Datos</string>
 
     <string name="string_SharedPreferences_titulo">Esto es una prueba de Shared Preferences</string>
     <string name="string_SharedPreferences_guardar">Guardar</string>

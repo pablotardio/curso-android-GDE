@@ -65,4 +65,8 @@ public class AllActivitiesMenu extends AppCompatActivity {
         Intent intent= new Intent(this,Ficheros_test.class);
         startActivity(intent);
     }
+    public void navigateToDBTest(View view){
+        Intent intent= new Intent(this,DatabaseTest.class);
+        startActivity(intent);
+    }
 }
