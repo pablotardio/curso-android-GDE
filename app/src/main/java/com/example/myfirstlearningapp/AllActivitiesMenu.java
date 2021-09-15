@@ -61,4 +61,8 @@ public class AllActivitiesMenu extends AppCompatActivity {
         Intent intent= new Intent(this,ContactsSharedPrefs.class);
         startActivity(intent);
     }
+    public void navigateToFichero(View view){
+        Intent intent= new Intent(this,Ficheros_test.class);
+        startActivity(intent);
+    }
 }

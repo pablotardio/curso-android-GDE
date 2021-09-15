@@ -34,6 +34,7 @@
     <string name="string_allActivities_webView">Web View</string>
     <string name="string_allActivities_SharedPreferences">Shared Prefs</string>
     <string name="string_allActivities_ContactsSharedPreferences">Contactos con SharedPrefs</string>
+    <string name="string_allActivities_Ficheros">Bitacora con Ficheros(txt)</string>
 
     <string name="string_allActivities_webView_TV">Introduzca Pagina web</string>
     <string name="string_allActivities_webView_ButtonSend">Enviar Datos</string>
