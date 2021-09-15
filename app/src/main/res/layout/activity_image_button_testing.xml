@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ImageButtonTesting">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="67dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="268dp"
+        android:contentDescription="@string/string_imageButton_description"
+        android:onClick="buttonGeekpediaClickHandler"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/ic_geekipedia" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="69dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="276dp"
+        android:contentDescription="@string/string_imageButton_description"
+        android:onClick="buttonManoClickHandler"
+        app:layout_constraintStart_toEndOf="@+id/imageButton"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/ic_mano" />
+</androidx.constraintlayout.widget.ConstraintLayout>
