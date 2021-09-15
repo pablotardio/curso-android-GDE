@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AllActivitiesMenu">
+
+    <Button
+        android:id="@+id/button02AllVIews"
+        android:layout_width="156dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="16dp"
+        android:onClick="navigateToRadioCalculator"
+        android:text="@string/string_allActivities_radioCalculator"
+        app:layout_constraintStart_toEndOf="@+id/button01AllVIews"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button01AllVIews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="16dp"
+        android:onClick="navigateToMain"
+        android:text="@string/string_allActivities_mainCalculator"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button03AllVIews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="12dp"
+        android:onClick="navigateToChecklistCalculator"
+        android:text="@string/string_allActivities_checklistCalculator"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button01AllVIews" />
+
+    <Button
+        android:id="@+id/button04AllVIews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:onClick="navigateToScreenCalculator"
+        android:text="@string/string_allActivities_screeCalculator"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button03AllVIews" />
+
+    <Button
+        android:id="@+id/button05AllVIews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:onClick="navigateToSpinnerSelect"
+        android:text="@string/string_allActivities_spinnerSelectCalculator"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button04AllVIews" />
+
+    <Button
+        android:id="@+id/button06AllVIews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="4dp"
+        android:onClick="navigateToListViewNames"
+        android:text="@string/string_allActivities_listViewNames"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button05AllVIews" />
+
+    <Button
+        android:id="@+id/button07AllVIews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="8dp"
+        android:onClick="navigateToImageButton"
+        android:text="@string/string_allActivities_imageButtons"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button06AllVIews" />
+
+    <Button
+        android:id="@+id/button08AllVIews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="8dp"
+        android:onClick="navigateToFormValidation"
+        android:text="@string/string_allActivities_formValidation"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button07AllVIews" />
+
+    <Button
+        android:id="@+id/button09AllVIews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="8dp"
+        android:onClick="navigateToPasarDatoAOtraPantalla"
+        android:text="@string/string_allActivities_pasarDatoAOtraPantalla"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button08AllVIews" />
+
+    <Button
+        android:id="@+id/button10AllVIews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:onClick="navigateToWebView"
+        android:text="@string/string_allActivities_webView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button09AllVIews" />
+
+    <Button
+        android:id="@+id/button11AllVIews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="8dp"
+        android:onClick="navigateToSharedPrefs"
+        android:text="@string/string_allActivities_SharedPreferences"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button10AllVIews" />
+</androidx.constraintlayout.widget.ConstraintLayout>
