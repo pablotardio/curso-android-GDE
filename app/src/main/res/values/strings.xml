@@ -12,12 +12,16 @@
     <string name="string_radioButton_radioCalculator_suma">Suma</string>
     <string name="string_radioButton_radioCalculator_resta">Resta</string>
     <string name="string_textView_radioCalculator_result">Resultado</string>
+
     <string name="string_radioButton_radioCalculator_mul">Multiplicacion</string>
     <string name="string_radioButton_radioCalculator_div">Division</string>
+
     <string name="string_imageButton_description">Descripcion generica</string>
+
     <string name="string_formValidation_name">Nombrea</string>
     <string name="string_formValidation_pass">Password</string>
     <string name="string_formValidation_button">Registrar</string>
+
     <string name="string_allActivities_mainCalculator">Main -calculator</string>
     <string name="string_allActivities_radioCalculator">Radio calculator</string>
     <string name="string_allActivities_screeCalculator">Screen calculator</string>
@@ -30,8 +34,15 @@
     <string name="string_allActivities_webView">Web View</string>
     <string name="string_allActivities_SharedPreferences">Shared Prefs</string>
     <string name="string_allActivities_webView_TV">Introduzca Pagina web</string>
+
     <string name="string_allActivities_webView_ButtonSend">Enviar Datos</string>
     <string name="string_allActivities_webView_Button02">Atras</string>
+
     <string name="string_SharedPreferences_titulo">Esto es una prueba de Shared Preferences</string>
     <string name="string_SharedPreferences_guardar">Guardar</string>
+
+    <string name="string_ContactsSharedPreferences_nameText">Nombre del contacto</string>
+    <string name="string_ContactsSharedPreferences_searchText">Datos del contacto</string>
+    <string name="string_ContactsSharedPreferences_saveButton">Guardar</string>
+    <string name="string_ContactsSharedPreferences_searchButton">Buscar</string>
 </resources>
