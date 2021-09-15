@@ -37,6 +37,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="100dp"
         android:layout_marginTop="72dp"
+        android:onClick="handleButtonSave"
         android:text="@string/string_ContactsSharedPreferences_saveButton"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextMultilineContact01" />
@@ -47,6 +48,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
         android:layout_marginTop="72dp"
+        android:onClick="handleButtonSearch"
         android:text="@string/string_ContactsSharedPreferences_searchButton"
         app:layout_constraintStart_toEndOf="@+id/buttonContactSave"
         app:layout_constraintTop_toBottomOf="@+id/editTextMultilineContact01" />

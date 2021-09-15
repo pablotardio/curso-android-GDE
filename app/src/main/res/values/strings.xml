@@ -33,8 +33,9 @@
     <string name="string_allActivities_pasarDatoAOtraPantalla">Enviar Datos a Otra activity</string>
     <string name="string_allActivities_webView">Web View</string>
     <string name="string_allActivities_SharedPreferences">Shared Prefs</string>
-    <string name="string_allActivities_webView_TV">Introduzca Pagina web</string>
+    <string name="string_allActivities_ContactsSharedPreferences">Contactos con SharedPrefs</string>
 
+    <string name="string_allActivities_webView_TV">Introduzca Pagina web</string>
     <string name="string_allActivities_webView_ButtonSend">Enviar Datos</string>
     <string name="string_allActivities_webView_Button02">Atras</string>
 

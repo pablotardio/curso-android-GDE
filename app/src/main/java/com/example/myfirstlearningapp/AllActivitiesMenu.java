@@ -57,4 +57,8 @@ public class AllActivitiesMenu extends AppCompatActivity {
         Intent intent= new Intent(this,SharedPreferencesTest.class);
         startActivity(intent);
     }
+    public void navigateToContactSharedPrefs(View view){
+        Intent intent= new Intent(this,ContactsSharedPrefs.class);
+        startActivity(intent);
+    }
 }
