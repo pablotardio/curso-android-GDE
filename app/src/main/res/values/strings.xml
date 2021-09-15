@@ -46,4 +46,5 @@
     <string name="string_ContactsSharedPreferences_searchText">Datos del contacto</string>
     <string name="string_ContactsSharedPreferences_saveButton">Guardar</string>
     <string name="string_ContactsSharedPreferences_searchButton">Buscar</string>
+    <string name="string_Fichero_saveButton">Guardar</string>
 </resources>

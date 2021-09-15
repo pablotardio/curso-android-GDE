@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyFirstLearningApp">
-        <activity android:name=".ContactsSharedPrefs"></activity>
+        <activity android:name=".Ficheros_test"></activity>
+        <activity android:name=".ContactsSharedPrefs" />
         <activity android:name=".SharedPreferencesTest" />
         <activity android:name=".WebViewOpeningPage" />
         <activity android:name=".WebViewDataWrite" />
