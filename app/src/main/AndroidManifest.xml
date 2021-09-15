@@ -9,8 +9,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyFirstLearningApp">
-        <activity android:name=".ListViewNames"
-            android:exported="true"></activity>
+        <activity android:name=".SharedPreferencesTest"></activity>
+        <activity android:name=".WebViewOpeningPage" />
+        <activity android:name=".WebViewDataWrite" />
+        <activity android:name=".PantallaConDatoExterno" />
+        <activity android:name=".PasarDatoAOtraPantalla" />
+        <activity
+            android:name=".AllActivitiesMenu"
+            android:exported="true" />
+        <activity
+            android:name=".form_validation"
+            android:exported="true" />
+        <activity
+            android:name=".ImageButtonTesting"
+            android:exported="true" />
+        <activity
+            android:name=".ListViewNames"
+            android:exported="true" />
         <activity
             android:name=".SpinnerSelectCalculator"
             android:exported="true" />
@@ -31,5 +46,7 @@
             </intent-filter>
         </activity>
     </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
 </manifest>
