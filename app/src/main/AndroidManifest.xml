@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyFirstLearningApp">
-        <activity android:name=".LayoutLinearLayout"></activity>
+        <activity android:name=".LayoutFrameLayout"></activity>
+        <activity
+            android:name=".LayoutTableLayout"
+            android:exported="true" />
+        <activity android:name=".LayoutLinearLayout" />
         <activity android:name=".DatabaseTest" />
         <activity android:name=".Ficheros_test" />
         <activity android:name=".ContactsSharedPrefs" />
