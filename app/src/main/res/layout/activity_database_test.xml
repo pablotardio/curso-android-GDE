@@ -70,6 +70,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="92dp"
         android:layout_marginTop="60dp"
+        android:onClick="handleClickButtonDelete"
         android:text="@string/string_DB_delete"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonDBSearch" />

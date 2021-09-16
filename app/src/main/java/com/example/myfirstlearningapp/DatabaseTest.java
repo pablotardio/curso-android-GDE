@@ -76,4 +76,23 @@ public class DatabaseTest extends AppCompatActivity {
         }
     }
 
+    public void handleClickButtonDelete(View view){
+        AdminSQLiteHelper admin = new AdminSQLiteHelper(this, "administracion",null,1);
+        SQLiteDatabase database= admin.getWritableDatabase();
+        String id=etId.getText().toString();
+        if(!id.isEmpty()){
+           int cantidad=database.delete("articulos","id="+id,null);
+           if(cantidad==1){
+               etId.setText("");
+               etName.setText("");
+               etPrice.setText("");
+               Toast.makeText(this, "Se borro exitosamente", Toast.LENGTH_SHORT).show();
+           }else{
+               Toast.makeText(this, "No se encontro producto", Toast.LENGTH_SHORT).show();
+           }
+        }else{
+            Toast.makeText(this, "Debes introducir el codigo del articulo", Toast.LENGTH_SHORT).show();
+        }
+    }
+
 }
