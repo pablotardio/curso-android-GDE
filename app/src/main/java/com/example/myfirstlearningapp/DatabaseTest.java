@@ -81,6 +81,7 @@ public class DatabaseTest extends AppCompatActivity {
         SQLiteDatabase database= admin.getWritableDatabase();
         String id=etId.getText().toString();
         if(!id.isEmpty()){
+            //we delete the row and a quantity is returned
            int cantidad=database.delete("articulos","id="+id,null);
            if(cantidad==1){
                etId.setText("");
@@ -94,5 +95,32 @@ public class DatabaseTest extends AppCompatActivity {
             Toast.makeText(this, "Debes introducir el codigo del articulo", Toast.LENGTH_SHORT).show();
         }
     }
+    public void handleClickButtonModify(View view){
+       AdminSQLiteHelper admin = new AdminSQLiteHelper(this,"administracion",null,1);
+       SQLiteDatabase database = admin.getWritableDatabase();
+       String id=etId.getText().toString();
+       if(!id.isEmpty()){
+           String name=etName.getText().toString();
+           String price=etPrice.getText().toString();
+           if(!name.isEmpty() &&!price.isEmpty()){
+                ContentValues registro= new ContentValues();
+                registro.put("id",id);
+                registro.put("nombre",name);
+                registro.put("precio",price);
+                //when updated a quantity is returned
+               int cantidad=database.update("articulos",registro,"id="+id,null);
+               database.close();
+               if(cantidad==1){
+                   Toast.makeText(this, "Se actualizo el producto: "+id, Toast.LENGTH_SHORT).show();
+               }else{
+                   Toast.makeText(this, "NO se encontro el producto: "+id, Toast.LENGTH_SHORT).show();
+               }
+           }else {
+               Toast.makeText(this, "Debe rellenar todos los campos", Toast.LENGTH_SHORT).show();
+           }
+       }else{
+           Toast.makeText(this, "Introduzca id del articulo", Toast.LENGTH_SHORT).show();
+       }
 
+    }
 }

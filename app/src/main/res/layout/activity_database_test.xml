@@ -68,10 +68,21 @@
         android:id="@+id/buttonDBEliminar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="92dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="44dp"
         android:onClick="handleClickButtonDelete"
         android:text="@string/string_DB_delete"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonDBSearch" />
+
+    <Button
+        android:id="@+id/buttonDBModificar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="20dp"
+        android:onClick="handleClickButtonModify"
+        android:text="@string/string_DB_edit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonDBEliminar" />
 </androidx.constraintlayout.widget.ConstraintLayout>

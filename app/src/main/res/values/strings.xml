@@ -57,4 +57,5 @@
     <string name="string_DB_registerButton">Registrar producto</string>
     <string name="string_DB_search">Buscar producto</string>
     <string name="string_DB_delete">Borrar producto</string>
+    <string name="string_DB_edit">Modificar producto</string>
 </resources>
