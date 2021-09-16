@@ -54,5 +54,6 @@
     <string name="string_DB_id">ID</string>
     <string name="string_DB_name">Nombre</string>
     <string name="string_DB_price">Precio</string>
-    <string name="string_DB_registerButton">Registrar</string>
+    <string name="string_DB_registerButton">Registrar producto</string>
+    <string name="string_DB_search">Buscar producto</string>
 </resources>
