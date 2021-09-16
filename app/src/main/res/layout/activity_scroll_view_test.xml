@@ -6,4 +6,143 @@
     android:layout_height="match_parent"
     tools:context=".ScrollViewTest">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="97dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/imageButtonFruitBanana"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#61CA95"
+                android:contentDescription="@string/string_ScrollView_descripcionButton"
+                android:onClick="handlePressFruta"
+                app:srcCompat="@drawable/bananas" />
+
+            <ImageButton
+                android:id="@+id/imageButtonFruitCereza"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00FFFFFF"
+                android:contentDescription="@string/string_ScrollView_descripcionButton"
+                android:onClick="handlePressFruta"
+                app:srcCompat="@drawable/cerezas" />
+
+            <ImageButton
+                android:id="@+id/imageButtonFruitFrambuesa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#61CA95"
+                android:contentDescription="@string/string_ScrollView_descripcionButton"
+                android:onClick="handlePressFruta"
+                app:srcCompat="@drawable/frambuesas" />
+
+            <ImageButton
+                android:id="@+id/imageButtonFruitFresa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00FFFFFF"
+                android:contentDescription="@string/string_ScrollView_descripcionButton"
+                android:onClick="handlePressFruta"
+                app:srcCompat="@drawable/fresas" />
+
+            <ImageButton
+                android:id="@+id/imageButtonFruitKiwi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#61CA95"
+                android:contentDescription="@string/string_ScrollView_descripcionButton"
+                android:onClick="handlePressFruta"
+                app:srcCompat="@drawable/kiwis" />
+
+            <ImageButton
+                android:id="@+id/imageButtonFruitMango"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00FFFFFF"
+                android:contentDescription="@string/string_ScrollView_descripcionButton"
+                android:onClick="handlePressFruta"
+                app:srcCompat="@drawable/mangos" />
+
+            <ImageButton
+                android:id="@+id/imageButtonFruitManzana"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#61CA95"
+                android:contentDescription="@string/string_ScrollView_descripcionButton"
+                android:onClick="handlePressFruta"
+                app:srcCompat="@drawable/manzanas" />
+
+            <ImageButton
+                android:id="@+id/imageButtonFruitMelon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00FFFFFF"
+                android:contentDescription="@string/string_ScrollView_descripcionButton"
+                android:onClick="handlePressFruta"
+                app:srcCompat="@drawable/melon" />
+
+            <ImageButton
+                android:id="@+id/imageButtonFruitNaranja"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#61CA95"
+                android:contentDescription="@string/string_ScrollView_descripcionButton"
+                android:onClick="handlePressFruta"
+                app:srcCompat="@drawable/naranjas" />
+
+            <ImageButton
+                android:id="@+id/imageButtonFruitPera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00FFFFFF"
+                android:contentDescription="@string/string_ScrollView_descripcionButton"
+                android:onClick="handlePressFruta"
+                app:srcCompat="@drawable/pera" />
+
+            <ImageButton
+                android:id="@+id/imageButtonFruitSandia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#61CA95"
+                android:contentDescription="@string/string_ScrollView_descripcionButton"
+                android:onClick="handlePressFruta"
+                app:srcCompat="@drawable/sandia" />
+
+            <ImageButton
+                android:id="@+id/imageButtonFruitPina"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00FFFFFF"
+                android:contentDescription="@string/string_ScrollView_descripcionButton"
+                android:onClick="handlePressFruta"
+                app:srcCompat="@drawable/pina" />
+
+            <ImageButton
+                android:id="@+id/imageButtonFruitUva"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#61CA95"
+                android:contentDescription="@string/string_ScrollView_descripcionButton"
+                android:onClick="handlePressFruta"
+                app:srcCompat="@drawable/uvas" />
+
+            <ImageButton
+                android:id="@+id/imageButtonFruitZarzamora"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00FFFFFF"
+                android:contentDescription="@string/string_ScrollView_descripcionButton"
+                android:onClick="handlePressFruta"
+                app:srcCompat="@drawable/zarzamora" />
+
+        </LinearLayout>
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
