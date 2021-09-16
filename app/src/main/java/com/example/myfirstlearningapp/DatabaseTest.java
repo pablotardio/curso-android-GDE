@@ -3,6 +3,7 @@ package com.example.myfirstlearningapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.ContentValues;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.View;
@@ -52,6 +53,26 @@ public class DatabaseTest extends AppCompatActivity {
             etName.setText("");
             etPrice.setText("");
             Toast.makeText(this, "Guardado en la base de datos", Toast.LENGTH_SHORT).show();
+        }
+    }
+    public void handleClickButtonSearch(View view){
+        AdminSQLiteHelper admin = new AdminSQLiteHelper(this,"administracion",null,1);
+        SQLiteDatabase database= admin.getWritableDatabase();
+
+        String id=etId.getText().toString();
+        if(!id.isEmpty()){
+            //retrieving data with a query
+            Cursor fila =database.rawQuery("select nombre,precio from articulos where id="+id,null);
+            //We should verify that there is no empty data in the query.
+            if(fila.moveToFirst()){
+                etName.setText(fila.getString(0));
+                etPrice.setText(fila.getString(1));
+            }else{
+                Toast.makeText(this, "No existe el articulo", Toast.LENGTH_SHORT).show();
+            }
+            database.close();
+        }else{
+            Toast.makeText(this, "Debes introducir el codigo del articulo", Toast.LENGTH_SHORT).show();
         }
     }
 
