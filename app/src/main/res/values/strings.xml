@@ -58,4 +58,24 @@
     <string name="string_DB_search">Buscar producto</string>
     <string name="string_DB_delete">Borrar producto</string>
     <string name="string_DB_edit">Modificar producto</string>
+
+    <string name="string_calculator_01">1</string>
+    <string name="string_calculator_02">2</string>
+    <string name="string_calculator_03">3</string>
+    <string name="string_calculator_04">4</string>
+    <string name="string_calculator_05">5</string>
+    <string name="string_calculator_06">6</string>
+    <string name="string_calculator_07">7</string>
+    <string name="string_calculator_08">8</string>
+    <string name="string_calculator_09">9</string>
+    <string name="string_calculator_00">0</string>
+    <string name="string_calculator_mas">+</string>
+    <string name="string_calculator_menos">-</string>
+    <string name="string_calculator_por">*</string>
+    <string name="string_calculator_igual">=</string>
+    <string name="string_calculator_division">/</string>
+    <string name="string_calculator_restaurar">Restaurar Valores</string>
+    <string name="string_calculator_default">0</string>
+
+    <string name="string_FrameLayout_buttonOcultar">Ocultar</string>
 </resources>

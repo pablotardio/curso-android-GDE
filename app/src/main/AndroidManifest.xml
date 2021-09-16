@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyFirstLearningApp">
-        <activity android:name=".LayoutFrameLayout"></activity>
+        <activity  android:exported="true" android:name=".LayoutFrameLayout"></activity>
         <activity
             android:name=".LayoutTableLayout"
             android:exported="true" />
