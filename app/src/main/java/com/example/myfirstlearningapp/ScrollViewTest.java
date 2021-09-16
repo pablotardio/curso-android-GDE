@@ -12,6 +12,10 @@ public class ScrollViewTest extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_scroll_view_test);
+
+        //Poner el icono en el action bar
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setIcon(R.mipmap.ic_launcher);
     }
     public void handlePressFruta(View view){
         switch (view.getId()){
