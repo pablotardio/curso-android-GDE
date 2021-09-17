@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyFirstLearningApp">
-        <activity android:exported="true" android:name=".AudioPlayerTest"></activity>
+        <activity android:exported="true" android:name=".Reproductor"></activity>
+        <activity
+            android:name=".AudioPlayerTest"
+            android:exported="true" />
         <activity
             android:name=".ScrollViewTest"
             android:exported="true" />

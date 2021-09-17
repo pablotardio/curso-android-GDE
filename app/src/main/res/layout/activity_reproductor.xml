@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/reproductor_background"
+    tools:context=".Reproductor">
+
+    <ImageView
+        android:id="@+id/imageViewRepPortada"
+        android:layout_width="294dp"
+        android:layout_height="293dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="104dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/reproductor_portada1" />
+
+    <ImageButton
+        android:id="@+id/imageButtonRepPlay"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="#00FFFFFF"
+        android:onClick="handlePlayPauseButton"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewRepPortada"
+        app:srcCompat="@drawable/reproductor_reproducir" />
+
+    <ImageButton
+        android:id="@+id/imageButtonRepStop"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toEndOf="@+id/imageButtonRepPlay"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewRepPortada"
+        app:srcCompat="@drawable/reproductor_detener" />
+
+    <ImageButton
+        android:id="@+id/imageButtonRepLoop"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toEndOf="@+id/imageButtonRepStop"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewRepPortada"
+        app:srcCompat="@drawable/reproductor_no_repetir" />
+
+    <ImageButton
+        android:id="@+id/imageButtonRepBack"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toEndOf="@+id/imageButtonRepLoop"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewRepPortada"
+        app:srcCompat="@drawable/reproductor_anterior" />
+
+    <ImageButton
+        android:id="@+id/imageButtonRepNext"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toEndOf="@+id/imageButtonRepBack"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewRepPortada"
+        app:srcCompat="@drawable/siguiente" />
+</androidx.constraintlayout.widget.ConstraintLayout>
