@@ -80,4 +80,7 @@
     <string name="string_FrameLayout_buttonOcultar">Ocultar</string>
 
     <string name="string_ScrollView_descripcionButton">Ocultar</string>
+
+    <string name="string_AudioPlayer_buttonMediaPlayer">Reproducir AudioPlayer</string>
+    <string name="string_AudioPlayer_SoundPool">Reproducir Soundpool</string>
 </resources>
