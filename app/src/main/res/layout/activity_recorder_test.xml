@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rec_background"
+    tools:context=".RecorderTest">
+
+    <ImageButton
+        android:id="@+id/imageButtonRecStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="204dp"
+        android:backgroundTint="#00FFFFFF"
+        android:onClick="handleClickRecord"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rec_stop_rec" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="544dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rec_android" />
+
+    <ImageButton
+        android:id="@+id/imageButtonRecPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="204dp"
+        android:backgroundTint="#00FFFFFF"
+        android:onClick="handleClickPlay"
+        app:layout_constraintStart_toEndOf="@+id/imageButtonRecStop"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rec_reproducir" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
