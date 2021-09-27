@@ -18,6 +18,9 @@ public class ScrollViewTest extends AppCompatActivity {
         getSupportActionBar().setIcon(R.mipmap.ic_launcher);
     }
     public void handlePressFruta(View view){
+        /**
+         * To have all the buttons in one row
+         */
         switch (view.getId()){
             case R.id.imageButtonFruitBanana:
                 Toast.makeText(this, "Esto es una Banana", Toast.LENGTH_SHORT).show();
