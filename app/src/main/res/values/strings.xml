@@ -83,4 +83,9 @@
 
     <string name="string_AudioPlayer_buttonMediaPlayer">Reproducir AudioPlayer</string>
     <string name="string_AudioPlayer_SoundPool">Reproducir Soundpool</string>
+
+
+    <string name="string_CustomMenu_Item1">Opcion 1</string>
+    <string name="string_CustomMenu_Item2">Opcion 2</string>
+    <string name="string_CustomMenu_Item3">Opcion 3</string>
 </resources>
