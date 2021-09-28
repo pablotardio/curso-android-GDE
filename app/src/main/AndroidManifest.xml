@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyFirstLearningApp">
-        <activity android:name=".RecorderTest"  android:exported="true"></activity>
+        <activity android:exported="true"  android:name=".CustomMenuTest"></activity>
+        <activity
+            android:name=".RecorderTest"
+            android:exported="true" />
         <activity
             android:name=".Reproductor"
             android:exported="true" />
@@ -66,8 +69,8 @@
             </intent-filter>
         </activity>
     </application>
+    <uses-permission  android:name="android.permission.RECORD_AUDIO" />
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.RECORD_AUDIO" />
 
 </manifest>
