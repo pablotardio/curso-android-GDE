@@ -37,6 +37,12 @@ public class CustomMenuTest extends AppCompatActivity {
             case (R.id.MenuItem3CustomMenu):
                 Toast.makeText(this, "Opcion 3", Toast.LENGTH_SHORT).show();
                 break;
+            case (R.id.MenuItemCompartirCustomMenu):
+                Toast.makeText(this, "Opcion Compartir", Toast.LENGTH_SHORT).show();
+                break;
+            case (R.id.MenuItemBuscarCustomMenu):
+                Toast.makeText(this, "Opcion Buscar", Toast.LENGTH_SHORT).show();
+                break;
         }
         return super.onOptionsItemSelected(item);
     }

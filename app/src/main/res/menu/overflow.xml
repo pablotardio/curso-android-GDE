@@ -3,6 +3,16 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
+        android:id="@+id/MenuItemBuscarCustomMenu"
+        android:icon="@drawable/custommenu_buscar"
+        android:title="Item"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/MenuItemCompartirCustomMenu"
+        android:icon="@drawable/custommenu_compartir"
+        android:title="Item"
+        app:showAsAction="always" />
+    <item
         android:id="@+id/MenuItem1CustomMenu"
         android:title="@string/string_CustomMenu_Item1" />
     <item
